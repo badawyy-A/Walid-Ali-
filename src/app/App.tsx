@@ -760,31 +760,7 @@ function AboutSection() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <FadeIn><SectionLabel label="About" number="00" /></FadeIn>
 
-        <div className="grid md:grid-cols-2 gap-16 lg:gap-28 items-start mt-12">
-          {/* Photo */}
-          <FadeIn delay={100}>
-            <div className="relative">
-              <div className="aspect-[3/4] w-full max-w-xs mx-auto md:mx-0 overflow-hidden" style={{ border: "1px solid rgba(255,255,255,0.1)", background: "#0c0c0c" }}>
-                <img
-                  src="/me.jpg"
-                  alt="Walid Ali"
-                  className="block w-full h-full object-contain"
-                  draggable={false}
-                />
-                <div className="absolute left-0 right-0 h-px pointer-events-none" style={{ background: "linear-gradient(to right, transparent, rgba(255,255,255,0.08), transparent)", animation: "scanline 3s linear infinite" }} />
-              </div>
-              {/* Corner accents */}
-              <div className="absolute -bottom-3 -right-3 w-20 h-20" style={{ border: "1px solid rgba(255,255,255,0.25)", borderTop: "none", borderLeft: "none" }} />
-              <div className="absolute -top-3 -left-3 w-10 h-10"  style={{ border: "1px solid rgba(255,255,255,0.2)", borderBottom: "none", borderRight: "none" }} />
-              {/* Floating badge */}
-              <div className="absolute -right-6 bottom-16 hidden lg:flex flex-col items-center gap-1 p-3" style={{ border: "1px solid rgba(255,255,255,0.1)", background: "rgba(8,8,8,0.9)", animation: "floatY 3s ease-in-out infinite" }}>
-                <span className="font-bebas text-2xl text-white">3+</span>
-                <span className="font-inter text-[8px] tracking-widest uppercase text-white/35">Years</span>
-              </div>
-            </div>
-          </FadeIn>
-
-          {/* Content */}
+        <div className="max-w-3xl mx-auto mt-12">
           <FadeIn delay={180} className="flex flex-col gap-9">
             <div>
               <h2 className="font-bebas text-5xl lg:text-6xl tracking-wide text-white mb-5" style={{ lineHeight: 1.05 }}>
