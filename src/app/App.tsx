@@ -768,10 +768,10 @@ function AboutSection() {
                 <span className="text-white/40">&amp; Marketing Visuals</span>
               </h2>
               <p className="font-inter text-sm leading-relaxed text-white/50">
-                Based in Cairo, Walid Ali is a graphic designer focused on branding, social media creatives, and marketing support. He creates visuals that help companies communicate clearly, stay consistent, and present a polished image across digital and print channels.
+                Based in Cairo, I am a graphic designer focused on branding, social media creatives, and marketing support. I create visuals that help companies communicate clearly, stay consistent, and present a polished image across digital and print channels.
               </p>
               <p className="font-inter text-sm leading-relaxed text-white/32 mt-3">
-                With strong Adobe Creative Suite skills and experience across multi-format delivery, he adapts campaigns for web, social, presentations, and print while keeping deadlines and brand guidelines in focus.
+                With strong Adobe Creative Suite skills and experience across multi-format delivery, I adapt campaigns for web, social, presentations, and print while keeping deadlines and brand guidelines in focus.
               </p>
             </div>
 
